@@ -1,0 +1,30 @@
+/* main{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* flex possition */
+.start,.project,.contact,.pre,.competences{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.pre,.competences{
+    justify-content: end
+}
+
+.start{
+    height: 400px;
+    background-image: url('../img/canard.webp');
+    background-size: cover; /* or any other size you prefer */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+
+}
