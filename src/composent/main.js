@@ -1,5 +1,8 @@
 import './main.css';
+import Carousel from './carousel'
 import logo from '../img/canard.webp';
+import Tes from './text'
+// import carousel_P_O from '../img/Elipse 2.png'
 
 function main() {
     return (
@@ -10,7 +13,7 @@ function main() {
             <div className="block">
                 <img src={logo}/>
 
-                <p>lorem  lipsum</p>
+                <p><Tes /></p>
             </div>
         </div>
 
@@ -27,10 +30,16 @@ function main() {
         <div className="project">
             <h2>Projets</h2>
 
-            <div className="block">
-                <img src={logo}/>
+            <div className="block_c">
+                {/* carousel */}
 
-                <p>lorem  lipsum</p>
+                
+                <Carousel />
+                {/* <p>lorem  lipsum</p> */}
+            </div>
+
+            <div className="point">
+                
             </div>
         </div>
 
@@ -58,3 +67,10 @@ function main() {
   }
   
   export default main;
+
+ 
+//   function carousel() {
+
+// function carousel() {
+//     if(is)
+// }
